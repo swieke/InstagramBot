@@ -54,6 +54,6 @@ class InstagramBot:
             except Exception:
                 continue
 
-myIG = InstagramBot("diamondrough_9929","mentalist123")
+myIG = InstagramBot("USERNAME","PASSWORD")
 myIG.login()
-myIG.like_photo("nature")
+myIG.like_photo("DESIREDHASHTAGS")
